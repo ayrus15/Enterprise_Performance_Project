@@ -1,0 +1,8 @@
+CheckArea,Check,Status,Expected,Actual,Severity
+Schema,Required columns present,Pass,8,8,Critical
+Rows,Raw rows equal clean output rows,Pass,541909,541909,Critical
+Date parsing,Unparseable invoice dates,Pass,0,0,Non-critical
+Duplicates,Exact duplicate candidates retained,Warning,0,10147,Non-critical
+Sales eligibility,Rows excluded from positive-sales view remain traceable,Pass,541909,11805,Control
+Portfolio,Unique project IDs,Pass,11,11,Critical
+Portfolio,Completed projects have 100% progress and actual end date,Pass,1,1,Critical

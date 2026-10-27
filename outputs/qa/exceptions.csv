@@ -1,0 +1,2 @@
+CheckArea,Check,Status,Expected,Actual,Severity
+Duplicates,Exact duplicate candidates retained,Warning,0,10147,Non-critical

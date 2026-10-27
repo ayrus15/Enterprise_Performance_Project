@@ -7,3 +7,5 @@ data/interim/
 data/raw/
 .python_packages/
 !outputs/qa/*.csv
+node_modules/
+outputs/reports/

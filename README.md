@@ -10,7 +10,17 @@ Use the bundled Python runtime and run:
 & 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' src/runPipeline.py
 ```
 
-The pipeline reads the immutable `data/raw/Online Retail.xlsx`, writes clean data and reporting tables to `outputs/`, and produces QA evidence. Build the workbook and presentation after the pipeline succeeds.
+The pipeline reads the immutable `data/raw/Online Retail.xlsx`, writes clean data and reporting tables to `outputs/`, and produces QA evidence.
+
+To create the Excel command centre after a successful run:
+
+```powershell
+& 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' src/prepareWorkbookData.py
+& 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe' src/buildWorkbook.mjs
+& 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' src/addWorkbookCharts.py
+```
+
+The generated workbook is `workbook/Enterprise_Performance_Command_Center.xlsx`. It contains dashboard and governance tables plus 100-row display subsets for raw and clean transactions. The full immutable source and clean output remain on disk outside the workbook.
 
 ## Source
 

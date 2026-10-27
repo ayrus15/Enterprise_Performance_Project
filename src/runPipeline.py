@@ -11,6 +11,9 @@ from pathlib import Path
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
+LOCAL_PACKAGES = ROOT / ".python_packages"
+if LOCAL_PACKAGES.exists():
+    sys.path.insert(0, str(LOCAL_PACKAGES))
 EXPECTED = ["InvoiceNo", "StockCode", "Description", "Quantity", "InvoiceDate", "UnitPrice", "CustomerID", "Country"]
 
 
@@ -106,7 +109,7 @@ def main() -> int:
     logging.basicConfig(filename=qa / "pipeline.log", level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     rawPath = ROOT / cfg["raw_file"]
     if not rawPath.exists(): raise FileNotFoundError(f"Raw source missing: {rawPath}")
-    raw = pd.read_excel(rawPath, dtype={"InvoiceNo": "string", "StockCode": "string"})
+    raw = pd.read_excel(rawPath, engine="calamine", dtype={"InvoiceNo": "string", "StockCode": "string"})
     missing = [x for x in EXPECTED if x not in raw.columns]
     if missing: raise ValueError(f"Critical schema failure. Missing required columns: {missing}")
     clean = cleanTransactions(raw); portfolio, milestones, records = makePortfolio(reportingDate); kpis, summaries = calculateKpis(clean, portfolio, milestones, records, reportingDate)

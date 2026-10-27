@@ -5,3 +5,5 @@ outputs/processed/*.csv
 outputs/qa/*.log
 data/interim/
 data/raw/
+.python_packages/
+!outputs/qa/*.csv

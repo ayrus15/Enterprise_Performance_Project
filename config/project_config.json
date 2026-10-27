@@ -1,0 +1,7 @@
+{
+  "reporting_date": "2011-12-09",
+  "stale_update_days": 7,
+  "high_risk_threshold": 15,
+  "raw_file": "data/raw/Online Retail.xlsx",
+  "workbook_transaction_limit": 25000
+}

@@ -1,2 +1,2 @@
 RunID,RunTimestamp,SourceName,SourceRowCount,OutputRowCount,RejectedRowCount,WarningCount,ErrorCount,ReconciliationStatus,RunStatus,Notes
-RUN-20261027T172819Z-4e82db,2026-10-27T17:30:53.351461+00:00,Online Retail.xlsx,541909,541909,11805,1,0,Warning,Partial Success,"Raw rows retained; sales view excludes cancellations, negative quantities, zero/negative prices and invalid dates."
+RUN-20261029T085032Z-dd0463,2026-10-29T08:52:24.251367+00:00,Online Retail.xlsx,541909,541909,11805,1,0,Warning,Partial Success,"Raw rows retained; sales view excludes cancellations, negative quantities, zero/negative prices and invalid dates."

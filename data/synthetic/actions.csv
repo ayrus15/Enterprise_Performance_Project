@@ -1,0 +1,6 @@
+RecordID,RecordType,ProjectID,Title,Description,Probability,Impact,Priority,OwnerRole,DateRaised,DueDate,Status,MitigationOrNextStep,EscalationRequired,ClosedDate,RiskScore,IsOverdue
+REC-003,Issue,PRJ-004,Test window compressed,Late source mapping reduces user acceptance test time.,,,High,Reporting Manager,2021-11-20,2021-12-09,Open,Approve constrained test plan.,True,,,False
+REC-004,Action,PRJ-001,Confirm pilot staffing,Operations must confirm trained pilot staff.,,,High,Operations Director,2021-11-18,2021-11-29,Open,Confirm staffing roster and training dates.,True,,,False
+REC-005,Dependency,PRJ-008,Legal content review,Legal approval is needed before content migration.,,,Medium,Content Lead,2021-11-12,2021-12-01,In Progress,Escalate review capacity request.,False,,,False
+REC-007,Action,PRJ-010,Run resilience exercise,Business teams must complete the scheduled scenario exercise.,,,Medium,Resilience Manager,2021-11-25,2021-12-16,Open,Facilitate exercise and capture actions.,False,,,False
+REC-008,Action,PRJ-007,Archive closure evidence,Archive closure evidence for completed control work.,,,Low,Control Manager,2021-10-20,2021-10-29,Closed,Evidence archived.,False,2021-10-29,,False

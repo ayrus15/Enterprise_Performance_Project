@@ -30,6 +30,18 @@ To build the ten-slide executive review deck from the same verified outputs:
 
 The deck is written to `presentation/Monthly_Business_Performance_Review.pptx` and reads only `outputs/processed/*.csv` and `config/project_config.json`; every figure on a slide traces to one of those files.
 
+## Synthetic portfolio data
+
+`data/synthetic/` holds a committed, static snapshot of the fictional
+project portfolio (projects, milestones, risks, actions) so it can be
+reviewed without running the full pipeline. It is exported straight from the
+same `makePortfolio()` definition in `src/runPipeline.py` that feeds the
+workbook, presentation, and memo:
+
+```powershell
+& 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' src/exportSyntheticData.py
+```
+
 ## Source
 
 UCI Machine Learning Repository, *Online Retail*, Daqing Chen (2015), DOI: 10.24432/C5BW33. Downloaded 2026-10-27 from https://archive.ics.uci.edu/dataset/352/online+retail. CC BY 4.0. The raw workbook is preserved unchanged in `data/raw/`.

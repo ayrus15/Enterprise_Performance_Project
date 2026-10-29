@@ -1,0 +1,4 @@
+RecordID,RecordType,ProjectID,Title,Description,Probability,Impact,Priority,OwnerRole,DateRaised,DueDate,Status,MitigationOrNextStep,EscalationRequired,ClosedDate,RiskScore,IsOverdue
+REC-001,Risk,PRJ-005,Supplier defect backlog,External supplier defects threaten recovery plan.,5.0,5.0,Critical,Engineering Manager,2021-11-10,2021-11-30,Blocked,Agree capacity and recovery plan with supplier.,True,,25.0,False
+REC-002,Risk,PRJ-002,Integration test failure,Interface failures block customer routing release.,4.0,5.0,Critical,Product Manager,2021-11-15,2021-12-03,In Progress,Prioritise defect triage and daily recovery review.,True,,20.0,False
+REC-006,Risk,PRJ-003,Steward capacity,Control sign-off depends on allocated data steward capacity.,3.0,4.0,High,Data Product Owner,2021-11-21,2021-12-15,In Progress,Reserve sign-off sessions.,False,,12.0,False

@@ -9,3 +9,4 @@ data/raw/
 !outputs/qa/*.csv
 node_modules/
 outputs/reports/
+*.inspect.ndjson

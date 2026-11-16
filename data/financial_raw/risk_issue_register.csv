@@ -1,0 +1,6 @@
+RiskID,RecordType,ProgrammeID,RiskCategory,RiskDescription,Likelihood,Impact,InherentRating,Mitigation,Owner,TargetDate,ResidualRating,Status
+RISK-001,Risk,PRJ-005,Delivery,Supplier defect backlog threatens recovery plan,5,5,25,Agree capacity and recovery plan with supplier,Engineering Manager,2021-11-30,15,In Progress
+RISK-002,Risk,PRJ-002,Operational,Interface failures block customer routing release,4,5,20,Prioritise defect triage and daily recovery review,Product Manager,2021-12-03,12,In Progress
+RISK-003,Risk,PRJ-003,Operational,Control sign-off depends on data steward capacity,3,4,12,Reserve sign-off sessions,Data Product Owner,2021-12-15,6,In Progress
+ISSUE-001,Issue,PRJ-004,Delivery,Late source mapping compresses the test window,,,High,Approve constrained test plan,Reporting Manager,2021-12-09,Medium,Open
+ISSUE-002,Issue,PRJ-008,Compliance,Legal approval is needed before content migration,,,Medium,Escalate review capacity request,Content Lead,2021-12-01,Low,In Progress

@@ -1,0 +1,12 @@
+ProgrammeID,ProgrammeName,BusinessUnit,ProgrammeOwner,StartDate,EndDate,DeliveryStatus,RiskRating,RiskDescription
+PRJ-001,Contact Centre Workflow Simplification,Operations,Operations Director,2021-07-01,2021-11-30,At Risk,Amber,Pilot staffing dependency may delay completion
+PRJ-002,Customer Case Routing Upgrade,Technology,Technology Director,2021-06-15,2021-12-15,Delayed,Red,Interface failures block release testing
+PRJ-003,Sales Data Quality Controls,Data,Data Governance Lead,2021-08-01,2021-12-20,On Track,Green,Data steward capacity remains monitored
+PRJ-004,Month-End Reporting Automation,Controls,Finance Controls Lead,2021-07-15,2021-12-10,At Risk,Amber,Compressed user acceptance test window
+PRJ-005,Core Integration Stabilisation,Technology,Technology Director,2021-05-01,2021-11-15,Delayed,Red,Supplier defect backlog exceeds recovery capacity
+PRJ-006,Returns Process Redesign,Customer,Customer Operations Head,2021-09-01,2022-02-28,On Track,Green,Policy approval dependency
+PRJ-007,Vendor Access Recertification,Controls,Risk and Controls Lead,2021-04-01,2021-10-31,Complete,Green,Closure evidence retained
+PRJ-008,Knowledge Base Renewal,Customer,Customer Operations Head,2021-10-15,2022-03-31,At Risk,Amber,Legal content review delays migration
+PRJ-009,Demand Forecasting Prototype,Data,Data Governance Lead,2021-09-15,2022-01-31,On Track,Green,Data extract dependency
+PRJ-010,Operational Resilience Playbooks,Operations,Operations Director,2021-08-15,2022-01-15,On Track,Green,Business participation dependency
+PRJ-011,Supplier Invoice Controls,Controls,Finance Controls Lead,2022-01-10,2022-05-31,Not Started,Green,Programme has not started

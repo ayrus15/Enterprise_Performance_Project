@@ -1,0 +1,27 @@
+{
+  "reporting_date": "2021-12-09",
+  "source_record_counts": {
+    "programme_master": 11,
+    "financial_submissions": 11,
+    "risk_issue_register": 5,
+    "corrective_actions": 6
+  },
+  "settings": {
+    "reporting_date": "2021-12-09",
+    "data_disclosure": "All financial and governance data is synthetic and illustrative; it does not represent any company, client, employer, or JPMorgan Chase data.",
+    "forecast_rag_thresholds": {
+      "green_max": 0.02,
+      "amber_max": 0.05
+    },
+    "risk_score_bands": {
+      "green_max": 5,
+      "amber_max": 14,
+      "red_max": 25
+    },
+    "risk_escalation": {
+      "minimum_inherent_score": 15,
+      "unowned_record": true
+    }
+  },
+  "data_policy": "All financial and governance data is synthetic and illustrative; it does not represent any company, client, employer, or JPMorgan Chase data."
+}

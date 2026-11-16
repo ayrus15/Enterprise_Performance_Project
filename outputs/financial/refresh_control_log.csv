@@ -1,0 +1,2 @@
+RefreshID,ReportingDate,ProcessingTimestampUTC,SourceFiles,RecordsReceived,ProgrammeRecordsProcessed,Exceptions,RefreshStatus,Definitions,Reviewer
+FIN-093D6322,2021-12-09,2026-11-15T14:49:25.914834+00:00,programme_master.csv (11); financial_submissions.csv (11); risk_issue_register.csv (5); corrective_actions.csv (6),33,11,0,Passed,Records Received = all source rows across four files; Programme Records Processed = consolidated programme rows.,Business Management Analyst

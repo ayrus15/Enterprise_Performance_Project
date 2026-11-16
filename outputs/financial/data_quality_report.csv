@@ -1,0 +1,16 @@
+CheckArea,Check,ActualValue,ExpectedCondition,Status,ExecutionStatus
+Source,programme_master record count,11,> 0,Pass,Executed
+Source,financial_submissions record count,11,> 0,Pass,Executed
+Source,risk_issue_register record count,5,> 0,Pass,Executed
+Source,corrective_actions record count,6,> 0,Pass,Executed
+Programme,Duplicate programme IDs,0,0,Pass,Executed
+Financial,Duplicate financial submissions,0,0,Pass,Executed
+Financial,Missing financial values,0,0,Pass,Executed
+Financial,Negative financial values,0,0,Pass,Executed
+Governance,Missing programme owners,0,0,Pass,Executed
+Governance,Risks or issues without owners,0,0,Pass,Executed
+Governance,Open actions without due dates,0,0,Pass,Executed
+Referential integrity,Financial programme IDs in master,0,0,Pass,Executed
+Referential integrity,Risk/issue programme IDs in master,0,0,Pass,Executed
+Referential integrity,Action programme IDs in master,0,0,Pass,Executed
+Governance,Invalid action dates,0,0,Pass,Executed

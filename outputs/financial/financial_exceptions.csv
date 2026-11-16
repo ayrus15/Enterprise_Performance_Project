@@ -1,0 +1,6 @@
+ProgrammeID,ProgrammeName,ProgrammeOwner,ForecastVariance,ForecastVariancePct,ForecastMovement,ForecastRAG,RiskRating,RiskDescription
+PRJ-005,Core Integration Stabilisation,Technology Director,250000,0.22727272727272727,70000,Red,Red,Supplier defect backlog exceeds recovery capacity
+PRJ-002,Customer Case Routing Upgrade,Technology Director,140000,0.1794871794871795,50000,Red,Red,Interface failures block release testing
+PRJ-001,Contact Centre Workflow Simplification,Operations Director,48000,0.11428571428571428,18000,Red,Amber,Pilot staffing dependency may delay completion
+PRJ-004,Month-End Reporting Automation,Finance Controls Lead,30000,0.08823529411764706,15000,Red,Amber,Compressed user acceptance test window
+PRJ-008,Knowledge Base Renewal,Customer Operations Head,13000,0.10833333333333334,8000,Red,Amber,Legal content review delays migration

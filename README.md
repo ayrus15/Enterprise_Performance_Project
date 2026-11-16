@@ -49,3 +49,18 @@ UCI Machine Learning Repository, *Online Retail*, Daqing Chen (2015), DOI: 10.24
 ## Limitations
 
 The source describes retail transactions, not banking data. Project portfolio data is entirely synthetic. Findings demonstrate reporting method and controls, not company results, benchmarks, or impacts.
+
+## Financial performance and portfolio governance dashboard
+
+The completed financial reporting extension is maintained separately from the retail demonstration so its source data and controls are easy to trace. It uses 11 clearly labelled synthetic programmes and creates a consolidated financial model, risk and issue register, corrective action tracker, exception report, refresh log, Excel dashboard, and executive review.
+
+```powershell
+& 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' src/financial_pipeline.py
+& 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\node\bin\node.exe' src/buildFinancialWorkbook.mjs
+& 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' src/build_financial_presentation.py
+& 'C:\Users\VAMSI\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe' -m pytest tests/test_financial_pipeline.py -q
+```
+
+The financial dashboard answers whether the synthetic portfolio is within budget and forecast tolerance, and whether risks, issues and actions have clear governance ownership. It contains 11 synthetic programmes. The inputs remain under `data/financial_raw/`; generated evidence is under `outputs/financial/`; the workbook is `workbook/Financial_Performance_Portfolio_Governance_Dashboard.xlsx`; and the six-slide executive deck is `presentation/Financial_Portfolio_Executive_Review.pptx`.
+
+`config/settings.json` is the single source for the reporting date, forecast RAG thresholds and risk escalation assumptions. `docs/financial_methodology.md` documents data flow, dataset definitions, formulas, risk scoring and data-quality controls. `docs/financial_validation_results.md` records the reconciliation results. The source datasets and all reported figures are synthetic and illustrative; no current business performance, client, employer or JPMorgan Chase data is represented.

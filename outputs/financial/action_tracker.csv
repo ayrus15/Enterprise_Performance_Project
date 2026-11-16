@@ -1,0 +1,7 @@
+ActionID,ProgrammeID,LinkedRecordID,ActionDescription,ActionOwner,Priority,DueDate,Status,EvidenceOfCompletion,EscalationRequired,Overdue,EscalationFlag
+ACT-001,PRJ-005,RISK-001,Confirm supplier recovery capacity and revised forecast,Engineering Manager,Critical,2021-11-30,In Progress,,Yes,True,True
+ACT-002,PRJ-002,RISK-002,Run daily defect triage and confirm release path,Product Manager,Critical,2021-12-03,In Progress,,Yes,True,True
+ACT-003,PRJ-004,ISSUE-001,Approve constrained test plan,Reporting Manager,High,2021-12-09,Open,,Yes,False,True
+ACT-004,PRJ-001,,Confirm pilot staffing roster,Operations Director,High,2021-11-29,Open,,Yes,True,True
+ACT-005,PRJ-008,ISSUE-002,Escalate legal review capacity request,Content Lead,Medium,2021-12-01,In Progress,,No,True,False
+ACT-006,PRJ-010,,Run resilience scenario exercise,Resilience Manager,Medium,2021-12-16,Open,,No,False,False
